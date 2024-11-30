@@ -1,9 +1,9 @@
 package personnages;
 
 public class Samourai extends Humain{
-	private String seigneur;
+	protected String seigneur;
 
-	public Samourai(String nom,String seigneur, String boissonFav, int argent) {
+	public Samourai(String seigneur,String nom,String boissonFav, int argent) {
 		super(nom, boissonFav, argent);
 		this.seigneur=seigneur;
 	}

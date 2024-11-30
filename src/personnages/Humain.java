@@ -8,8 +8,8 @@ public class Humain {
 
 	private String boissonFav;
 	protected int argent;
-	private Humain[] Connaissance = new Humain[3];
-	private int nbConnaissance;
+	protected Humain[] Connaissance = new Humain[3];
+	protected int nbConnaissance;
 
 	public Humain(String nom, String boissonFav, int argent) {
 		this.nom = nom;
