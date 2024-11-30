@@ -1,7 +1,7 @@
 package personnages;
 
 public class Humain {
-	protected String nom;
+	private String nom;
 	public String getBoissonFav() {
 		return boissonFav;
 	}
