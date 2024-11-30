@@ -32,5 +32,9 @@ public class Yakuza extends Humain {
 	public int getReputation() {
 		return reputation;
 	}
-	
+	@Override
+	public void direBonjour() {
+		parler("bonjour!je m'appelle " + getNom() + " et j'aime boire du " + getBoissonFav());
+		parler("Mon clan est celui de "+clan);
+	}
 }

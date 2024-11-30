@@ -1,7 +1,11 @@
 package personnages;
 
 public class Humain {
-	private String nom;
+	protected String nom;
+	public String getBoissonFav() {
+		return boissonFav;
+	}
+
 	private String boissonFav;
 	protected int argent;
 	private Humain[] Connaissance = new Humain[3];
