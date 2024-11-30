@@ -8,7 +8,7 @@ public class Humain {
 
 	private String boissonFav;
 	protected int argent;
-	protected Humain[] Connaissance = new Humain[3];
+	protected Humain[] Connaissance = new Humain[30];
 	protected int nbConnaissance;
 
 	public Humain(String nom, String boissonFav, int argent) {
@@ -92,6 +92,7 @@ public class Humain {
 			Connaissance[Connaissance.length - 1] = humain;
 			humain.Connaissance[humain.nbConnaissance] = this;
 			humain.nbConnaissance += 1;
+			
 		}
 
 	}
